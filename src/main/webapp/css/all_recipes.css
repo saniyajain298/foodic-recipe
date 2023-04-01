@@ -1,0 +1,72 @@
+@charset "ISO-8859-1";
+
+.head-img img{
+	
+	height: 50vh;
+}
+.steps_img{
+	width:200px;
+	margin:10px;
+}
+.count{
+	font-size:2rem;
+	color:#117c2d;
+}
+.heading {
+	color: #444444;
+   	line-height: 0.1em;
+   	margin: 30px 0 50px; 
+   	font-family: 'SeoulNamsan CM';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 378%;
+} 
+
+.heading2{
+	font-family: 'SeoulNamsan CM';
+ 	background: #fff; 
+	padding-right:5%;
+	padding:3px;
+	font-size:250%;
+	
+}
+h1 .heading2{
+	background-color:#FFF;
+}
+
+.divison{
+	margin-top:10%;
+}
+
+.heading span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+.heading3{
+	position:relative;
+	
+}
+.about-div{
+	background: #F1F29D;
+	padding: 3%;
+}
+.about{
+	font-family: 'SeoulNamsan CM';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 120%;
+	line-height: 135%;
+	text-align: justify;
+  	
+}
+.profile{
+	border-radius:50%;
+	width:80%;
+	
+}
+.rating{
+	position:relative;
+}
+.step_image{
+	margin-top:20%;
+}

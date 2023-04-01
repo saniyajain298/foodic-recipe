@@ -1,0 +1,130 @@
+@charset "ISO-8859-1";
+
+.alignment{
+	margin:1rem;
+	justify-content: space-evenly;
+}
+.row .aligment{
+	 margin-top: 2rem;
+}
+h3 label{
+	font-size:larger;
+	margin:2rem;
+}
+label{
+	font-weight: 500;
+	font-size:large;
+}
+p{
+	font-size: large;
+}
+.card{
+	margin:0.5rem;
+	margin-bottom:2rem;
+	width: 16rem !important;
+	height: 18rem;
+	background-color: grey;
+}
+.profile_img {
+    width: 20vh;
+    height: 20vh;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.profile_img img{
+	width: 100%;
+	border-radius:50%;
+}
+.fa-pen{
+	cursor:pointer;
+}
+
+.edit_detail{
+
+    outline: none;
+    margin: 3% 0% 5% 1%;
+    background-color: transparent;
+    border: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    width: 90%;
+    padding: 7px 0;
+    color: black;
+    padding: 0px;
+    border-bottom: 1px solid #b3a99d; 
+}
+
+.edit-class{
+	border-color: #ffc107;
+	border-width: 2px
+	transition:width 0.8s;
+}
+.pointer{
+	
+}
+/* input:read-only{
+  		pointer-events: none;
+}
+textarea:read-only{
+  		pointer-events: none;
+} */
+.fa-check{
+	color:#101820FF;
+	cursor: pointer;
+}
+
+.btn-profile {
+    position: relative;
+    overflow: hidden;
+}
+.btn-profile input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;   
+    cursor: inherit;
+    display: block;
+}
+
+/* profle image */
+#model-image {
+ 	display: block;
+    max-width: 100%;
+}
+.preview {
+  	overflow: hidden;
+    width: 160px; 
+    height: 160px;
+    margin: 10px;
+    border: 1px solid red;
+}
+.new-recipe{
+	text-decoration:none;
+	color:black;
+}
+.new-recipe div{
+	width: 10rem; 
+	height: 15rem;
+}
+
+@media screen and (min-device-width: 200px)and (max-width: 500px)  and (-webkit-min-device-pixel-ratio: 2){
+	h3 label{
+		font-weight: 700;
+		font-size:xxx-large;
+		font-style: oblique
+	}
+	label{
+		font-weight: 500;
+		font-size: xx-large;
+	}
+	p{
+		font-size: x-large;
+	}
+}

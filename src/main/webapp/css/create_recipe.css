@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+form{
+	background: #f8f9fa;
+}
+
+a.nav-link.h6.create-recipe-header{
+	font-weight: 700;
+	color: #ffc107;
+}
+a.nav-link.h6.create-recipe-header:hover {
+	color: #ffc107;
+}
+#main_preview_div{
+	width: 100%;
+	border: 1px solid #0DCAF0;
+}
+input[type=text], textarea{
+	border-radius: 20px 20px 20px 20px !important;
+	height: 60px;
+	border:0;
+	border-bottom:2px solid #e4e4e4;
+	border-right:2px solid #e4e4e4;
+}
+textarea{
+	height: 125px;
+    border-radius: 30px 30px 30px 30px;
+    border:0;
+    border-bottom:2px solid #e4e4e4;
+	border-right:2px solid #e4e4e4;
+    border-style: none; 
+    border-color: Transparent; 
+    overflow: auto;  
+}
+#main_preview{
+	width: 100%; 
+    height: 50vh;
+}
+.imgcrop {
+            display: block;
+            max-width: 100%;
+        }
+        .preview {
+            overflow: hidden;
+            width: 160px; 
+            height: 160px;
+            margin: 10px;
+            border: 1px solid red;
+        }
+        .image{
+        	
+        	visibility:hidden;
+        }
+        .img-label{
+        	margin: 10px;
+        	width: 160px; 
+        	height: 40px;
+        	background-color: #0DCAF0;
+        	border-radius: 6px;
+        	text-align: center;
+        }
+        .img-label:hover{
+        	
+        }

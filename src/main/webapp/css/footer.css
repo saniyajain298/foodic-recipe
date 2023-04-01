@@ -1,0 +1,27 @@
+@charset "ISO-8859-1";
+footer{
+	margin-top: -5%;
+   	bottom:0;
+   	width:100%;
+	/* background-image: url('../assets/img/all_index/1.jpg'); */
+	background-color:	#202020;
+}
+
+.ffoot {
+	padding:7px;
+	margin-right:8px;
+	background-color:white;
+	border-radius:50%;
+}
+
+footer div{
+	margin-top:5%;
+}
+footer i{
+/* 	font-size: 2rem; */
+}
+@Media only screen and (max-width: 1000px) {
+	footer p{
+	/* 	font-size:2rem; */
+	}
+}

@@ -1,0 +1,96 @@
+@charset "ISO-8859-1";
+.main-class{
+	background: white;
+	padding:0 max(2vmin,20px);
+	 
+} 
+a.nav-link.h6 .view-recipe-header{
+	font-weight: 700;
+	color: #ffc107;
+}
+a.nav-link.h6.view-recipe-header{
+	font-weight: 700;
+	color: #ffc107;
+}
+
+.recipe_img{
+	width:100%;
+	height:200px;
+	
+}
+
+.recipe-card a{
+	text-decoration:none;
+	
+}
+.recipe-card a:hover{
+	color:black;
+	
+}
+/* .all_recipe_card{
+	justify-content: flex-start;
+
+}  */
+.created_by{
+	position:absolute;
+	bottom:0;
+	float:start;
+	color:black;
+}
+.created-by{
+	bottom:0;
+	
+}
+.profile{
+	border-radius:50%;
+	width:50px;
+	
+}
+.info{
+	margin-top:2%
+	
+}
+.info .rating{
+	background: green;
+	color:white;
+}
+.card-text{
+  	text-decoration: none;
+  	color: black;
+	cursor:pointer;
+}
+.grid-content{
+	display: grid;
+    gap: 4.8vmin 9vmin;
+    grid-template-columns: repeat(6,1fr);
+    padding: max(4.8vmin,36px) 0 0;
+    position: relative;
+}
+.recipe-card{
+	background-size: cover;
+    display: flex;
+    flex-direction: column;
+    grid-column: span 2;
+    position: relative;
+    word-break: break-word;
+    width: 360px;
+    height: 507px;
+    
+}   
+.foodic-name{
+	margin-top:2%;
+	margin-left:2%;
+}
+.recipe-name{
+	font-size:150%;
+	font-weight:bolder;
+	color:black;
+}
+@media only screen and (max-width: 1000px){
+.grid-content{
+    grid-template-columns: repeat(4,1fr);
+}
+@media only screen and (max-width: 700px){
+.grid-content{
+    grid-template-columns: 1fr 1fr;
+}

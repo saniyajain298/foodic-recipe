@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+nav{
+	background:#fff;
+	height: auto;
+	width:auto;
+	border-bottom: 1px solid #e5e5e5;
+}
+.navbar-text a{
+	width: fit-content;
+}
+.navbar-brand{
+	margin:0px;
+	padding:0px;
+	margin-right:20%;
+	width:auto;
+	height:auto;
+	font-family: 'Caveat', cursive;
+	font-size:250%;
+}
+.header{
+	text:center;
+}
+
+.header li a{
+	font-family: 'ABeeZee', sans-serif;
+}
+.header li a:hover{
+	text-decoration: underline solid black;
+    text-underline-offset: 8px;
+}

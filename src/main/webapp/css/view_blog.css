@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+
+a.nav-link.h6.view-blog-header{
+	font-weight: 700;
+	color: #ffc107;
+}
+a.nav-link.h6.view-blog-header:hover {
+	color: #ffc107;
+}
+.card{
+	width:300px;
+}
+.card-img-top{
+	width:280px;
+	margin: 7px;
+	height:280px;
+}
+.blog-image{
+	width: 100%;
+	
+}
+.blog-image img{
+	width: 100%;
+    height: 37vw;
+}
